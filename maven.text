@@ -1,0 +1,29 @@
+1.Maven is a build automation tool .
+  Advantages :
+ 1. Maven uses convention over configuration.
+ 2. common interface
+ 3. dependencies
+ 4. Maven repository
+ 5. reuse plugins
+
+
+2.For creating maven project in eclipse
+  go to file-new-project-maven project-create a simple project-select archetype-maven-archetype-quickstart
+  finish
+
+
+3.Maven commands
+ mvn -version -> version checking and also used to check maven installed or not
+ mvn clean -> clears the target directory into which maven normally builds project 
+ mvn install ->for calling the maven executable
+ mvn install -DskipTests ->for skiping tests
+ mvn clean verify -> first clean up the output directory and next build the project and verify the outcome
+
+
+4.Maven life cycle
+  maven has multiple life cycle phases
+  some of them are
+  1.process-resources
+  2.compile
+  3.test
+  4.package
